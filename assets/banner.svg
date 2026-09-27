@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.3" />
+    </pattern>
+
+    <style>
+      .glow-circle {
+        animation: pulse 6s ease-in-out infinite alternate;
+      }
+      .flow-line {
+        stroke-dasharray: 8 8;
+        animation: dash 20s linear infinite;
+      }
+      .floating-pill {
+        animation: float 5s ease-in-out infinite alternate;
+      }
+      @keyframes pulse {
+        0% { transform: scale(1); opacity: 0.3; }
+        100% { transform: scale(1.15); opacity: 0.6; }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -1000; }
+      }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-10px); }
+      }
+      .title-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 800;
+        font-size: 42px;
+      }
+      .subtitle-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+      }
+      .badge-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg-grad)" />
+  <rect width="1200" height="320" rx="16" fill="url(#grid)" />
+
+  <!-- Animated Background Orbs (Behind content) -->
+  <circle cx="200" cy="100" r="180" fill="url(#glow-grad)" class="glow-circle" />
+  <circle cx="1000" cy="220" r="160" fill="url(#glow-grad)" class="glow-circle" style="animation-delay: -3s;" />
+
+  <!-- Dynamic Animated Metric/Flow Lines (Background layer) -->
+  <path d="M 50 260 Q 300 280 600 240 T 1150 270" fill="none" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.3" class="flow-line" />
+  <path d="M 50 230 Q 350 190 700 220 T 1150 200" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-opacity="0.3" class="flow-line" style="animation-duration: 15s;" />
+
+  <!-- Subtle Metric Graph Lines (Background layer) -->
+  <g opacity="0.15" transform="translate(780, 50)">
+    <polyline points="0,120 50,90 100,110 150,60 200,75 250,30 300,45" fill="none" stroke="#38bdf8" stroke-width="3" />
+    <circle cx="250" cy="30" r="5" fill="#38bdf8" />
+    <circle cx="150" cy="60" r="5" fill="#818cf8" />
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header & Text (Strictly Above Animations) -->
+  <!-- Top Category Tag -->
+  <g transform="translate(80, 55)">
+    <rect width="280" height="32" rx="16" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="140" y="21" fill="#38bdf8" class="badge-text" text-anchor="middle">🚀 CURATED SEI &amp; DEVEX ECOSYSTEM</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="80" y="140" fill="url(#title-grad)" class="title-text">Awesome Engineering Productivity</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="180" fill="#94a3b8" class="subtitle-text">The Ultimate Guide to DORA Metrics, DevEx, Developer Portals &amp; Engineering Analytics</text>
+
+  <!-- Feature Pills (Foreground) -->
+  <g transform="translate(80, 225)" class="floating-pill">
+    <!-- Pill 1: DORA Metrics -->
+    <g transform="translate(0, 0)">
+      <rect width="140" height="36" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="70" y="23" fill="#e2e8f0" class="badge-text" text-anchor="middle">📊 DORA Metrics</text>
+    </g>
+
+    <!-- Pill 2: DevEx & SPACE -->
+    <g transform="translate(155, 0)">
+      <rect width="165" height="36" rx="18" fill="#1e293b" stroke="#818cf8" stroke-width="1.5" />
+      <text x="82.5" y="23" fill="#e2e8f0" class="badge-text" text-anchor="middle">💡 DevEx &amp; SPACE</text>
+    </g>
+
+    <!-- Pill 3: SaaS Platforms -->
+    <g transform="translate(335, 0)">
+      <rect width="150" height="36" rx="18" fill="#1e293b" stroke="#a855f7" stroke-width="1.5" />
+      <text x="75" y="23" fill="#e2e8f0" class="badge-text" text-anchor="middle">🏢 Top SaaS Tools</text>
+    </g>
+
+    <!-- Pill 4: Open Source -->
+    <g transform="translate(500, 0)">
+      <rect width="170" height="36" rx="18" fill="#1e293b" stroke="#22c55e" stroke-width="1.5" />
+      <text x="85" y="23" fill="#e2e8f0" class="badge-text" text-anchor="middle">⚡ Open Source Stack</text>
+    </g>
+  </g>
+</svg>

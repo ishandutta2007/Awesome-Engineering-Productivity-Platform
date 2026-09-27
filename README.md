@@ -1,101 +1,125 @@
-# Awesome-Engineering-Productivity-Platform
+<div align="center">
 
-## Top Engineering Productivity Platforms Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square)
+![License](https://img.shields.io/github/license/ishandutta2007/Awesome-Engineering-Productivity-Platform?style=flat-square)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Developer Experience, DORA Metrics, Engineering Analytics & Team Performance*  
-**Last updated: September 2026**
+<br />
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Engineering Productivity**. These tools help engineering leaders, platform teams, and developers measure delivery performance, identify bottlenecks, improve developer experience, and make data-driven decisions about their software delivery process.
+![Awesome Engineering Productivity Platform Banner](assets/banner.svg)
 
-**Examples** include LinearB, Swarmia, Code Climate Velocity, DX, Haystack, GitPrime (Pluralsight Flow), Velocity by Jellyfish, Faros AI, Typo, and Jellyfish (the category leaders).
+# 🚀 Awesome Engineering Productivity Platforms
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom metrics pipelines, and transparent engineering data — ideal for teams that need full control over their delivery metrics without per-developer SaaS fees or vendor lock-in.
+**A curated list of top SaaS products and open-source projects for Software Engineering Intelligence (SEI), Developer Experience (DevEx), DORA Metrics, and Engineering Analytics.**  
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+*Last updated: September 2026*
 
-## Table of Contents
+</div>
 
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+---
 
-## SaaS/Hosted Platforms
+## 📌 Executive Summary & Market Insights
 
-- **[LinearB](https://linearb.io/)**  
-  Engineering intelligence platform with real-time DORA metrics, automated improvement actions, and workflow optimization. Integrates with GitHub, GitLab, Jira, and CI/CD tools to provide visibility into delivery performance and team planning accuracy .
+Engineering Productivity Platforms empower engineering leaders, platform teams, and developers to eliminate delivery bottlenecks, track key **DORA metrics** (*Deployment Frequency, Lead Time for Changes, Change Failure Rate, Time to Restore Service*), measure developer sentiment using **SPACE & DevEx frameworks**, and optimize engineering investment allocation.
 
-- **[Swarmia](https://www.swarmia.com/)**  
-  Engineering effectiveness platform focused on investment distribution (feature work vs. tech debt vs. incidents), PR review health, and working agreements. Trusted by 600+ engineering teams, with strong adoption in European technical organizations .
+---
 
-- **[Code Climate Velocity](https://codeclimate.com/)**  
-  Engineering metrics platform providing DORA metrics, code quality insights, and team performance analytics. The deploy action tracks deployments for Velocity integration.
+## 🏢 SaaS & Hosted Commercial Platforms
 
-- **[DX](https://getdx.com/)**  
-  Developer experience platform combining quantitative DORA metrics with qualitative developer sentiment surveys (based on DX Core 4 and SPACE frameworks). Identifies friction points by team and role .
+### 📈 Market Size & Industry Landscape
+> **Market Estimate**: The global **Software Engineering Intelligence (SEI) & Engineering Productivity** market is valued at **~$2.2 Billion** (2026) and is expanding at a **~22% CAGR**.  
+> **Market Structure**: The sector is **moderately fragmented**. High-growth enterprise leaders (e.g., *DX / Atlassian*, *Jellyfish*, *LinearB*) command strong enterprise presence, while mid-market vendors and flexible self-hosted open-source alternatives cater to security-conscious and developer-centric teams.
 
-- **[Haystack](https://haystackapp.com/)**  
-  Engineering analytics platform providing visibility into team performance, code review efficiency, and delivery metrics with actionable insights.
+### 📊 Commercial SaaS Comparison Table
+*Sorted by Estimated Company Valuation & Market Size (Descending)*
 
-- **[GitPrime (Pluralsight Flow)](https://www.pluralsight.com/product/flow)**  
-  Engineering metrics platform providing detailed analytics on team performance, code review patterns, and delivery velocity using Git repository data.
+| Platform 🚀 | Est. Valuation / Funding 💰 | Starting Pricing 💵 | Free Tier / Trial Limits 🎁 | Key Focus & Capabilities 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[DX (GetDX)](https://getdx.com/)** | **~$1.0B Valuation** *(Acquired by Atlassian)* | **$20 / dev / mo** | **14-day Free Trial** *(Guided demo/pilot up to 25 devs)* | Science-backed DevEx platform combining qualitative developer sentiment surveys (DX Core 4) with quantitative DORA metrics. |
+| **[Jellyfish](https://jellyfish.co/)** | **$114.5M Funding** *(~$32M ARR)* | **$30 / dev / mo** | **14-day Enterprise Trial** *(Customized pilot demo)* | Enterprise Engineering Management Platform mapping R&D spend to business outcomes, product themes, and software capitalization. |
+| **[LinearB](https://linearb.io/)** | **$71.0M Funding** *(~$25M ARR)* | **$18 / dev / mo** | **Free Forever** *(up to 8 devs)* / 14-day Pro trial | Real-time DORA metrics, PR bottleneck detection, and gitStream workflow automation for engineering teams. |
+| **[Code Climate Velocity](https://codeclimate.com/)** | **$66.0M Funding** *(~$15M ARR)* | **$20 / dev / mo** | **14-day Free Trial** *(up to 50 contributors)* | Engineering analytics suite integrating code quality inspection with PR cycle times and delivery health metrics. |
+| **[Faros AI](https://www.faros.ai/)** | **$36.0M Funding** *(~$5M ARR)* | **$30 / dev / mo** | **14-day Enterprise Trial** / Free Community Edition | Modular SEI data platform featuring 200+ data source connectors and an open-source self-hosted edition. |
+| **[Swarmia](https://www.swarmia.com/)** | **$19.7M Funding** *(~$5M ARR)* | **$15 / dev / mo** | **Free Forever** *(up to 9 devs)* / 14-day trial | Focuses on engineering investment distribution (features vs. tech debt vs. bugs), PR review health, and working agreements. |
+| **[Haystack](https://haystackapp.com/)** | **$5.0M Funding** *(~$2.5M ARR)* | **$12 / dev / mo** | **14-day Free Trial** *(unlimited users & metrics)* | Lightweight DORA metrics dashboard offering rapid Git cycle-time analytics and developer burnout prevention. |
+| **[Typo](https://typo.ai/)** | **$2.0M Funding** *(~$1.5M ARR)* | **$10 / dev / mo** | **14-day Free Trial** *(up to 15 developers)* | AI-native engineering intelligence platform providing automated code review analytics, DORA metrics, and developer wellbeing insights. |
 
-- **[Jellyfish](https://jellyfish.co/)**  
-  Engineering management intelligence platform focused on mapping engineering investment to business initiatives. Connects engineering work to product themes and business outcomes for VP-level reporting. Enterprise SaaS with contract-based pricing .
+---
 
-- **[Faros AI](https://www.faros.ai/)**  
-  Engineering intelligence platform with 200+ data source connectors and a unified data model. Enterprise-only managed SaaS estimated at $30-60/dev/month. The open-source **Faros Community Edition** provides the core data integration layer for self-hosting .
+## ⚡ Open-Source GitHub Projects
 
-- **[Typo](https://typo.ai/)**  
-  Engineering productivity platform focused on code review analytics and delivery metrics.
+Open-source engineering productivity tools enable full control over your telemetry, customization via SQL/Grafana, and zero per-developer vendor lock-in.
 
-## Open-Source GitHub Projects
+*Sorted by GitHub Star Count (Descending)*
 
-- **[Apache DevLake](https://github.com/apache/incubator-devlake)**  
-  Apache incubating open-source dev data platform that ingests, analyzes, and visualizes data from DevOps tools (GitHub, GitLab, Jira, Jenkins, BitBucket, Azure DevOps, SonarQube, PagerDuty). Provides out-of-the-box dashboards including DORA metrics, community growth, and engineering throughput. Extensible framework for custom data sources and metrics via SQL. Docker Compose, Kubernetes, and Helm deployment options. **Apache-2.0** .
+1. 🌟 **[Apache DevLake](https://github.com/apache/devlake)** [![GitHub stars](https://img.shields.io/github/stars/apache/devlake?style=social&color=white)](https://github.com/apache/devlake/stargazers)  
+   *Apache-2.0 open-source dev data platform that ingests, analyzes, and visualizes DevOps data from GitHub, GitLab, Jira, Jenkins, BitBucket, SonarQube, and PagerDuty into out-of-the-box Grafana DORA dashboards.*
 
-- **[CDviz](https://github.com/cdviz/cdviz)**  
-  Open-source platform that turns CI/CD pipeline events into insights. Built on CDEvents and Grafana, tracks DORA metrics across GitHub Actions, GitLab CI, ArgoCD, and more. Positions itself as a self-hostable alternative to LinearB, Swarmia, and Jellyfish. Key differentiators: data sovereignty, CDEvents open standard, event-driven workflow triggers, and customizable storage backends (PostgreSQL, ClickHouse). Self-hosted free (Apache-2.0); Cloud €20/mo; Pro €200/mo .
+2. 🔑 **[Four Keys](https://github.com/dora-team/fourkeys)** [![GitHub stars](https://img.shields.io/github/stars/dora-team/fourkeys?style=social&color=white)](https://github.com/dora-team/fourkeys/stargazers)  
+   *Google DORA team's open-source measurement system. Ingests GitHub/GitLab webhooks into Cloud Pub/Sub and BigQuery to calculate the 4 key DORA metrics automatically.*
 
-- **[Middleware](https://github.com/middlewarehq/middleware)**  
-  Open-source DORA metrics platform for engineering teams. Automates collection and visualization of deployment frequency, lead time for changes, MTTR, and change failure rate. Integrates with CI/CD platforms, Git repositories, and project management tools. Simple Docker deployment with minimal configuration. ~1,287 stars. **Open-Core / Self-Hosted** .
+3. 🛡️ **[Middleware](https://github.com/middlewarehq/middleware)** [![GitHub stars](https://img.shields.io/github/stars/middlewarehq/middleware?style=social&color=white)](https://github.com/middlewarehq/middleware/stargazers)  
+   *Turnkey open-source DORA metrics platform for engineering teams. Automates collection of deployment frequency, lead time, MTTR, and change failure rate with simple Docker deployment.*
 
-- **[Faros Community Edition](https://github.com/faros-ai/faros-community-edition)**  
-  Open-source core of Faros AI's data integration layer. Connect development tools, normalize data into a unified model, and query it. A subset of the 200+ connectors is available. Self-hosted infrastructure costs only, but requires DevOps expertise for maintenance. Faros AI positions CE as an evaluation path for the managed enterprise platform .
+4. 📐 **[ThoughtWorks Metrik](https://github.com/thoughtworks/metrik)** [![GitHub stars](https://img.shields.io/github/stars/thoughtworks/metrik?style=social&color=white)](https://github.com/thoughtworks/metrik/stargazers)  
+   *ThoughtWorks open-source measurement tool that extracts data from CD pipelines to calculate DORA metrics across team workflows.*
 
-- **[DevOpsMetrics](https://github.com/DeveloperMetrics/DevOpsMetrics)**  
-  C# project to extract and process high-performing DevOps metrics (DORA) from GitHub and Azure DevOps. Focused on deployment frequency, lead time, MTTR, and change failure rate. ~252 stars .
+5. 🛠️ **[DevOpsMetrics](https://github.com/DeveloperMetrics/DevOpsMetrics)** [![GitHub stars](https://img.shields.io/github/stars/DeveloperMetrics/DevOpsMetrics?style=social&color=white)](https://github.com/DeveloperMetrics/DevOpsMetrics/stargazers)  
+   *.NET/C# open-source utility designed to process high-performing DORA DevOps metrics directly from GitHub Actions and Azure DevOps APIs.*
 
-- **[Pelorus](https://github.com/dora-metrics/pelorus)**  
-  Automates the measurement of organizational behavior, specifically DORA metrics. Python-based, part of the dora-metrics GitHub organization .
+6. ⛵ **[Pelorus](https://github.com/dora-metrics/pelorus)** [![GitHub stars](https://img.shields.io/github/stars/dora-metrics/pelorus?style=social&color=white)](https://github.com/dora-metrics/pelorus/stargazers)  
+   *Python-based tool from the `dora-metrics` organization, automating the measurement of organizational delivery metrics on Kubernetes & OpenShift.*
 
-- **[Dorametrix](https://github.com/mikaelvesavuori/dorametrix)**  
-  Serverless web service that calculates DORA metrics by inferring them from events created via webhooks or manually. Supports GitHub Actions and Bitbucket Pipes integration. Lightweight and easy to deploy .
+7. 🔍 **[Delivery Intel](https://github.com/ParthibanRajasekaran/delivery-intel)** [![GitHub stars](https://img.shields.io/github/stars/ParthibanRajasekaran/delivery-intel?style=social&color=white)](https://github.com/ParthibanRajasekaran/delivery-intel/stargazers)  
+   *CLI and web dashboard tool to compute DORA metrics, run vulnerability scans, and calculate health scores for any GitHub repository.*
 
-- **[Backstage DORA Plugin](https://github.com/liatrio/backstage-dora-plugin)**  
-  Backstage plugin to surface organizational DORA metrics directly in the developer portal .
+8. ⚡ **[Dorametrix](https://github.com/mikaelvesavuori/dorametrix)** [![GitHub stars](https://img.shields.io/github/stars/mikaelvesavuori/dorametrix?style=social&color=white)](https://github.com/mikaelvesavuori/dorametrix/stargazers)  
+   *Lightweight serverless web service that computes DORA metrics by receiving webhook events from GitHub Actions, Bitbucket Pipes, or custom CI runners.*
 
-### Additional Strong Open-Source Options
+9. 🧩 **[Backstage DORA Plugin](https://github.com/liatrio/backstage-dora-plugin)** [![GitHub stars](https://img.shields.io/github/stars/liatrio/backstage-dora-plugin?style=social&color=white)](https://github.com/liatrio/backstage-dora-plugin/stargazers)  
+   *Official Liatrio plugin for Spotify Backstage to display team DORA metrics directly inside your internal developer portal.*
 
-- **DORA Foundations**: **Apache DevLake** (comprehensive, multi-source), **Middleware** (simple DORA deployment), **CDviz** (CDEvents-based, event-driven).
-- **Lightweight Tools**: **Dorametrix** (serverless, webhook-driven), **DevOpsMetrics** (.NET, GitHub/Azure DevOps).
-- **Developer Experience**: **Slack DevEx Survey** (serverless Slack survey tool for developer sentiment, TypeScript, MIT) .
-- **Portal Integration**: **Backstage DORA Plugin** (surface metrics in developer portal).
+10. 🏷️ **[GitHub DORA Metrics](https://github.com/mikaelvesavuori/github-dora-metrics)** [![GitHub stars](https://img.shields.io/github/stars/mikaelvesavuori/github-dora-metrics?style=social&color=white)](https://github.com/mikaelvesavuori/github-dora-metrics/stargazers)  
+    *Instant, badge-ready DORA metrics generator designed for automated GitHub repository README displays.*
 
-**Frameworks for building custom systems**: Combine **Apache DevLake** for comprehensive data ingestion and dashboards, **CDviz** for CI/CD pipeline observability with event-driven automation, **Middleware** for simple DORA deployment, and **Grafana** for visualization. Add **PostgreSQL** for persistence and **Backstage** for portal integration.
+11. 🔄 **[CDviz](https://github.com/cdviz-dev/cdviz)** [![GitHub stars](https://img.shields.io/github/stars/cdviz-dev/cdviz?style=social&color=white)](https://github.com/cdviz-dev/cdviz/stargazers)  
+    *Open-source platform built on CDEvents and Grafana, tracking pipeline health and DORA metrics across GitHub Actions, GitLab CI, and ArgoCD.*
 
-## How to Contribute
+---
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
+## 🤝 How to Contribute
 
-Star the repo if you find it useful!
+Contributions are welcome! Please follow these simple guidelines:
 
-## Disclaimer
+1. Fork this repository.
+2. Update or add new entries to `README.md` (keep descriptions factual and neutral).
+3. Ensure SaaS entries include verified starting prices, free tier limits, and company valuation data.
+4. Ensure Open-Source entries include a valid stargazers link badge.
+5. Submit a pull request with a brief summary of additions!
 
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Engineering productivity tools collect sensitive developer activity data; ensure compliance with privacy regulations and internal policies.
-- **Open-source is not free**: Apache DevLake and Faros CE require dedicated data engineering and DevOps resources for data ingestion, model tuning, and platform maintenance. Organizations without data teams should prioritize managed platforms .
+---
+
+## ☕ Support & Community
+
+If you find this repository helpful, please consider supporting it!
+
+- ⭐ **Star this repository** to help others discover it.
+- 🔄 **Fork & Share** it with your engineering team & peers.
+- 💖 **Sponsor the Project**: [Buy me a coffee on GitHub Sponsors](https://github.com/sponsors/ishandutta2007)
+
+<a href="https://github.com/sponsors/ishandutta2007">
+  <img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub Sponsors" />
+</a>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Engineering-Productivity-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Engineering-Productivity-Platform&type=date&legend=top-left)
+
+---
+
+## 📄 License
+
+[MIT](LICENSE) © [Ishan Dutta](https://github.com/ishandutta2007)
