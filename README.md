@@ -51,39 +51,39 @@ Engineering Productivity Platforms empower engineering leaders, platform teams, 
 
 Open-source engineering productivity tools enable full control over your telemetry, customization via SQL/Grafana, and zero per-developer vendor lock-in.
 
-*Sorted by GitHub Star Count (Descending)*
+*Sorted by GitHub Stars_Count (Descending)*
 
-1. 🌟 **[Apache DevLake](https://github.com/apache/devlake)** [![GitHub stars](https://img.shields.io/github/stars/apache/devlake?style=social&color=white)](https://github.com/apache/devlake/stargazers)  
+1. 🌟 **[Apache DevLake](https://github.com/apache/devlake)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/devlake?style=social&color=white)](https://github.com/apache/devlake/stargazers)  
    *Apache-2.0 open-source dev data platform that ingests, analyzes, and visualizes DevOps data from GitHub, GitLab, Jira, Jenkins, BitBucket, SonarQube, and PagerDuty into out-of-the-box Grafana DORA dashboards.*
 
-2. 🔑 **[Four Keys](https://github.com/dora-team/fourkeys)** [![GitHub stars](https://img.shields.io/github/stars/dora-team/fourkeys?style=social&color=white)](https://github.com/dora-team/fourkeys/stargazers)  
+2. 🔑 **[Four Keys](https://github.com/dora-team/fourkeys)** [![GitHub_Stars](https://img.shields.io/github/stars/dora-team/fourkeys?style=social&color=white)](https://github.com/dora-team/fourkeys/stargazers)  
    *Google DORA team's open-source measurement system. Ingests GitHub/GitLab webhooks into Cloud Pub/Sub and BigQuery to calculate the 4 key DORA metrics automatically.*
 
-3. 🛡️ **[Middleware](https://github.com/middlewarehq/middleware)** [![GitHub stars](https://img.shields.io/github/stars/middlewarehq/middleware?style=social&color=white)](https://github.com/middlewarehq/middleware/stargazers)  
+3. 🛡️ **[Middleware](https://github.com/middlewarehq/middleware)** [![GitHub_Stars](https://img.shields.io/github/stars/middlewarehq/middleware?style=social&color=white)](https://github.com/middlewarehq/middleware/stargazers)  
    *Turnkey open-source DORA metrics platform for engineering teams. Automates collection of deployment frequency, lead time, MTTR, and change failure rate with simple Docker deployment.*
 
-4. 📐 **[ThoughtWorks Metrik](https://github.com/thoughtworks/metrik)** [![GitHub stars](https://img.shields.io/github/stars/thoughtworks/metrik?style=social&color=white)](https://github.com/thoughtworks/metrik/stargazers)  
+4. 📐 **[ThoughtWorks Metrik](https://github.com/thoughtworks/metrik)** [![GitHub_Stars](https://img.shields.io/github/stars/thoughtworks/metrik?style=social&color=white)](https://github.com/thoughtworks/metrik/stargazers)  
    *ThoughtWorks open-source measurement tool that extracts data from CD pipelines to calculate DORA metrics across team workflows.*
 
-5. 🛠️ **[DevOpsMetrics](https://github.com/DeveloperMetrics/DevOpsMetrics)** [![GitHub stars](https://img.shields.io/github/stars/DeveloperMetrics/DevOpsMetrics?style=social&color=white)](https://github.com/DeveloperMetrics/DevOpsMetrics/stargazers)  
+5. 🛠️ **[DevOpsMetrics](https://github.com/DeveloperMetrics/DevOpsMetrics)** [![GitHub_Stars](https://img.shields.io/github/stars/DeveloperMetrics/DevOpsMetrics?style=social&color=white)](https://github.com/DeveloperMetrics/DevOpsMetrics/stargazers)  
    *.NET/C# open-source utility designed to process high-performing DORA DevOps metrics directly from GitHub Actions and Azure DevOps APIs.*
 
-6. ⛵ **[Pelorus](https://github.com/dora-metrics/pelorus)** [![GitHub stars](https://img.shields.io/github/stars/dora-metrics/pelorus?style=social&color=white)](https://github.com/dora-metrics/pelorus/stargazers)  
+6. ⛵ **[Pelorus](https://github.com/dora-metrics/pelorus)** [![GitHub_Stars](https://img.shields.io/github/stars/dora-metrics/pelorus?style=social&color=white)](https://github.com/dora-metrics/pelorus/stargazers)  
    *Python-based tool from the `dora-metrics` organization, automating the measurement of organizational delivery metrics on Kubernetes & OpenShift.*
 
-7. 🔍 **[Delivery Intel](https://github.com/ParthibanRajasekaran/delivery-intel)** [![GitHub stars](https://img.shields.io/github/stars/ParthibanRajasekaran/delivery-intel?style=social&color=white)](https://github.com/ParthibanRajasekaran/delivery-intel/stargazers)  
+7. 🔍 **[Delivery Intel](https://github.com/ParthibanRajasekaran/delivery-intel)** [![GitHub_Stars](https://img.shields.io/github/stars/ParthibanRajasekaran/delivery-intel?style=social&color=white)](https://github.com/ParthibanRajasekaran/delivery-intel/stargazers)  
    *CLI and web dashboard tool to compute DORA metrics, run vulnerability scans, and calculate health scores for any GitHub repository.*
 
-8. ⚡ **[Dorametrix](https://github.com/mikaelvesavuori/dorametrix)** [![GitHub stars](https://img.shields.io/github/stars/mikaelvesavuori/dorametrix?style=social&color=white)](https://github.com/mikaelvesavuori/dorametrix/stargazers)  
+8. ⚡ **[Dorametrix](https://github.com/mikaelvesavuori/dorametrix)** [![GitHub_Stars](https://img.shields.io/github/stars/mikaelvesavuori/dorametrix?style=social&color=white)](https://github.com/mikaelvesavuori/dorametrix/stargazers)  
    *Lightweight serverless web service that computes DORA metrics by receiving webhook events from GitHub Actions, Bitbucket Pipes, or custom CI runners.*
 
-9. 🧩 **[Backstage DORA Plugin](https://github.com/liatrio/backstage-dora-plugin)** [![GitHub stars](https://img.shields.io/github/stars/liatrio/backstage-dora-plugin?style=social&color=white)](https://github.com/liatrio/backstage-dora-plugin/stargazers)  
+9. 🧩 **[Backstage DORA Plugin](https://github.com/liatrio/backstage-dora-plugin)** [![GitHub_Stars](https://img.shields.io/github/stars/liatrio/backstage-dora-plugin?style=social&color=white)](https://github.com/liatrio/backstage-dora-plugin/stargazers)  
    *Official Liatrio plugin for Spotify Backstage to display team DORA metrics directly inside your internal developer portal.*
 
-10. 🏷️ **[GitHub DORA Metrics](https://github.com/mikaelvesavuori/github-dora-metrics)** [![GitHub stars](https://img.shields.io/github/stars/mikaelvesavuori/github-dora-metrics?style=social&color=white)](https://github.com/mikaelvesavuori/github-dora-metrics/stargazers)  
+10. 🏷️ **[GitHub DORA Metrics](https://github.com/mikaelvesavuori/github-dora-metrics)** [![GitHub_Stars](https://img.shields.io/github/stars/mikaelvesavuori/github-dora-metrics?style=social&color=white)](https://github.com/mikaelvesavuori/github-dora-metrics/stargazers)  
     *Instant, badge-ready DORA metrics generator designed for automated GitHub repository README displays.*
 
-11. 🔄 **[CDviz](https://github.com/cdviz-dev/cdviz)** [![GitHub stars](https://img.shields.io/github/stars/cdviz-dev/cdviz?style=social&color=white)](https://github.com/cdviz-dev/cdviz/stargazers)  
+11. 🔄 **[CDviz](https://github.com/cdviz-dev/cdviz)** [![GitHub_Stars](https://img.shields.io/github/stars/cdviz-dev/cdviz?style=social&color=white)](https://github.com/cdviz-dev/cdviz/stargazers)  
     *Open-source platform built on CDEvents and Grafana, tracking pipeline health and DORA metrics across GitHub Actions, GitLab CI, and ArgoCD.*
 
 ---
